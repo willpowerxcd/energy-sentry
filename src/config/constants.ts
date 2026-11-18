@@ -1,0 +1,6 @@
+export const ELECTRICITY_PRICE_YUAN_PER_KWH = 0.8
+export const CARBON_FACTOR_KG_PER_KWH = 0.47
+export const TREE_ABSORPTION_KG_PER_YEAR = 16.7
+
+export const DASHBOARD_REFRESH_MS = 60_000
+export const SCREEN_REFRESH_MS = 30_000

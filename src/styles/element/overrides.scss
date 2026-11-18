@@ -1,0 +1,115 @@
+:root {
+  --el-color-primary: #1d4ed8;
+  --el-color-primary-light-3: #6083e4;
+  --el-color-primary-light-5: #8ea6eb;
+  --el-color-primary-light-7: #bccaf3;
+  --el-color-primary-light-8: #d3ddf7;
+  --el-color-primary-light-9: #e9eefb;
+  --el-color-primary-dark-2: #173ead;
+
+  --el-color-success: #16a34a;
+  --el-color-warning: #d97706;
+  --el-color-danger: #dc2626;
+  --el-color-error: #dc2626;
+  --el-color-info: #2563eb;
+
+  --el-font-family: var(--font-sans);
+  --el-border-radius-base: 8px;
+  --el-border-radius-small: 6px;
+  --el-border-radius-round: 999px;
+
+  --el-text-color-primary: #0f172a;
+  --el-text-color-regular: #475569;
+  --el-text-color-secondary: #64748b;
+  --el-text-color-placeholder: #94a3b8;
+
+  --el-border-color: #e5eaf3;
+  --el-border-color-light: #eef2f8;
+  --el-border-color-lighter: #f1f5f9;
+  --el-fill-color-light: #f8faff;
+  --el-fill-color-blank: #ffffff;
+  --el-bg-color-page: #f6f8fc;
+  --el-box-shadow-light: 0 8px 24px rgba(29, 78, 216, 0.08);
+}
+
+.el-button {
+  font-weight: 500;
+}
+
+.el-button--primary {
+  box-shadow: 0 6px 16px rgba(29, 78, 216, 0.18);
+}
+
+.el-input__wrapper,
+.el-select__wrapper,
+.el-textarea__inner {
+  border-radius: var(--radius-control);
+  box-shadow: 0 0 0 1px var(--color-border) inset;
+}
+
+.el-input__wrapper.is-focus,
+.el-select__wrapper.is-focused {
+  box-shadow: 0 0 0 1px var(--color-primary) inset !important;
+}
+
+.el-table {
+  --el-table-header-bg-color: #f8faff;
+  --el-table-header-text-color: #64748b;
+  --el-table-row-hover-bg-color: #f8faff;
+  --el-table-border-color: #eef2f8;
+  --el-table-text-color: #334155;
+  --el-table-bg-color: #ffffff;
+  --el-table-tr-bg-color: #ffffff;
+  font-size: 13px;
+}
+
+.el-table th.el-table__cell {
+  height: 44px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.el-table td.el-table__cell {
+  height: 52px;
+  padding: 8px 0;
+}
+
+.el-table__inner-wrapper::before {
+  display: none;
+}
+
+.el-tag {
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.el-dialog {
+  border-radius: 14px;
+}
+
+.el-drawer {
+  border-radius: 16px 0 0 16px;
+}
+
+.el-popover.el-popper {
+  border-radius: 12px;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.12);
+}
+
+.el-dropdown-menu {
+  padding: 6px;
+}
+
+.el-dropdown-menu__item {
+  border-radius: 6px;
+}
+
+.el-avatar {
+  background: var(--color-primary-soft);
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.el-loading-mask {
+  background-color: rgba(255, 255, 255, 0.72);
+}

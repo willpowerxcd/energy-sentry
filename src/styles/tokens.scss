@@ -1,0 +1,60 @@
+:root {
+  /* Brand */
+  --color-primary: #1d4ed8;
+  --color-primary-strong: #1e40af;
+  --color-primary-hover: #2563eb;
+  --color-primary-soft: #eff6ff;
+  --color-primary-soft-2: #dbeafe;
+  --color-primary-border: #bfdbfe;
+
+  /* Surfaces and text */
+  --color-bg-page: #f6f8fc;
+  --color-bg-surface: #ffffff;
+  --color-bg-subtle: #f8faff;
+  --color-text-primary: #0f172a;
+  --color-text-secondary: #475569;
+  --color-text-muted: #64748b;
+  --color-text-tertiary: #94a3b8;
+  --color-border: #e5eaf3;
+  --color-border-light: #eef2f8;
+
+  /* Semantic */
+  --color-danger: #dc2626;
+  --color-danger-bg: #fef2f2;
+  --color-warning: #d97706;
+  --color-warning-bg: #fffbeb;
+  --color-success: #16a34a;
+  --color-success-bg: #f0fdf4;
+  --color-info: #2563eb;
+  --color-info-bg: #eff6ff;
+
+  /* Chart */
+  --chart-actual: #1d4ed8;
+  --chart-predicted: #60a5fa;
+  --chart-anomaly: #ef4444;
+  --chart-grid: #eef2f8;
+
+  /* Layout */
+  --sidebar-width: 224px;
+  --sidebar-collapsed-width: 64px;
+  --header-height: 64px;
+  --page-padding: 24px;
+
+  /* Radius and shadows */
+  --radius-card: 12px;
+  --radius-control: 8px;
+  --shadow-card: 0 1px 2px rgba(15, 23, 42, 0.03), 0 8px 24px rgba(29, 78, 216, 0.05);
+  --shadow-card-hover: 0 2px 4px rgba(15, 23, 42, 0.04), 0 14px 32px rgba(29, 78, 216, 0.09);
+
+  /* Fonts */
+  --font-sans: 'Inter', 'HarmonyOS Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-num: 'Barlow', 'Inter', 'HarmonyOS Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+
+  /* Dark screen */
+  --screen-bg: #061225;
+  --screen-panel: rgba(10, 30, 58, 0.72);
+  --screen-border: rgba(56, 189, 248, 0.25);
+  --screen-primary: #38bdf8;
+  --screen-text: #e2e8f0;
+  --screen-muted: #7c93b4;
+}

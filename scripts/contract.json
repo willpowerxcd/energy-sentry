@@ -1,0 +1,47 @@
+{
+  "version": "1.0",
+  "required": {
+    "POST": [
+      "/auth/login",
+      "/auth/refresh",
+      "/auth/logout",
+      "/energy/upload",
+      "/alarms/{id}/work-orders",
+      "/suggestions/{id}/adopt",
+      "/reports/generate",
+      "/reports/{id}/exports"
+    ],
+    "GET": [
+      "/auth/me",
+      "/dashboard/summary",
+      "/dashboard/series",
+      "/dashboard/ranking",
+      "/dashboard/alarms",
+      "/buildings",
+      "/buildings/{id}",
+      "/energy/series",
+      "/energy/quality",
+      "/energy/uploads/{task_id}",
+      "/efficiency/baseline",
+      "/efficiency/buildings",
+      "/efficiency/metrics",
+      "/alarms",
+      "/alarms/{id}",
+      "/suggestions",
+      "/suggestions/{id}",
+      "/reports",
+      "/reports/{id}",
+      "/exports/{task_id}",
+      "/devices",
+      "/devices/{id}",
+      "/settings/users",
+      "/settings/roles",
+      "/settings/thresholds",
+      "/settings/model-versions",
+      "/settings/tasks",
+      "/settings/audit-logs"
+    ],
+    "PATCH": ["/alarms/{id}", "/settings/users/{id}"],
+    "PUT": ["/settings/thresholds"]
+  }
+}
